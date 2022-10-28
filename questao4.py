@@ -5,7 +5,7 @@ soma_sequencia_crescente = ultimo_numero
 
 maior_tamanho_sequencia_constante = 1
 maior_tamanho_sequencia_crescente = 1
-maior_soma_sequencia_crescente = 1
+maior_soma_sequencia_crescente = ultimo_numero
 
 for i in range(149):
     numero = int(input())
@@ -22,7 +22,7 @@ for i in range(149):
             maior_soma_sequencia_crescente = soma_sequencia_crescente
 
         tamanho_sequencia_crescente = 1
-        soma_sequencia_crescente = 1
+        soma_sequencia_crescente = numero
 
     if numero == ultimo_numero:
         tamanho_sequencia_constante += 1
